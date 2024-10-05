@@ -1,0 +1,148 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#background {
+    background-image: url('mumbai-hogwarts.png.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    animation: glow 1.5s ease-in-out infinite;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+#contact-form {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+form button {
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background-color: #e67e22;
+    transform: scale(1.05);
+}
+
+#contact-info {
+    text-align: center;
+    margin: 20px auto;
+}
+
+#social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+#social-media img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+footer p {
+    margin: 0;
+}
+
+@keyframes glow {
+    0% { text-shadow: 0 0 10px #fff, 0 0 20px #ffcc00, 0 0 30px #ffcc00; }
+    50% { text-shadow: 0 0 20px #fff, 0 0 30px #ffcc00, 0 0 40px #ffcc00; }
+    100% { text-shadow: 0 0 10px #fff, 0 0 20px #ffcc00, 0 0 30px #ffcc00; }
+}
+
+#background-music {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #333;
+    color: #fff;
+}
+
+
+/* Base cursor style for the entire page */
+body {
+    cursor: url('default-cursor.png'), auto; /* Optional default cursor */
+}
+
+/* Magic Wand Cursor Style */
+.magic-cursor {
+    cursor: url('magic-wand.png'), auto; /* Custom cursor for magic effect */
+}
+
+/* Specific elements where the magic cursor should apply */
+#contact-form, #contact-info, #map {
+    /* Ensures the elements have the magic cursor */
+    cursor: url('magic-wand.png'), auto;
+    position: relative; /* Ensure proper positioning */
+}
+
+#social-media {
+    text-align: center;
+    margin: 20px auto;
+}
+
+#social-media a {
+    margin: 0 15px;
+    display: inline-block;
+}
+
+#social-media img {
+    width: 40px; /* Adjust size as needed */
+    height: 40px;
+    vertical-align: middle;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+#social-media img:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+    opacity: 0.8; /* Add a hover effect for better visibility */
+}
+
+
+/* ---------------------------- */
